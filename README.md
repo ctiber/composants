@@ -21,8 +21,7 @@ Sur cette page, les étudiants du Master Informatique ont accès aux supports de
   
   TP 4 : Composants Spring
   
-  TP 5 : Composants OSGi
-  
+  TP 5 : Composants OSGi<br/>
     - Le même TP sous Eclipse
     
   TP 6 : Composants Eclipse
