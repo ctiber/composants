@@ -15,8 +15,7 @@ Sur cette page, les étudiants du Master Informatique ont accès aux supports de
   TP 1 : [Composants EJB Session](./tp/01_ejb/tp_ejb1.pdf)
   
   TP 2 : [Composants EJB MDB](./tp/01_ejb/tp_ejb2.pdf)
-  
-    Librairie : [Le fichier mail.jar](./tp/01_ejb/lib/mail.jar)
+  ..- Librairie : [Le fichier mail.jar](./tp/01_ejb/lib/mail.jar)
     
   TP 3 : [Composants EJB et services Web](./tp/01_ejb/tp_ejb3.pdf)
   
