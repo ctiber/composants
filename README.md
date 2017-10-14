@@ -14,13 +14,13 @@ Sur cette page, les étudiants du Master Informatique ont accès aux supports de
 ## Sujets de TP
   TP 1 : [Composants EJB Session](./tp/01_ejb/tp_ejb1.pdf)
   
-  TP 2 : Composants EJB MDB](./tp/01_ejb/tp_ejb2.pdf)
+  TP 2 : [Composants EJB MDB](./tp/01_ejb/tp_ejb2.pdf)
   
     Librairie : [mail.jar](./tp/01_ejb/lib/mail.jar)
     
-  TP 3 : Composants EJB et services Web](./tp/01_ejb/tp_ejb3.pdf)
+  TP 3 : [Composants EJB et services Web](./tp/01_ejb/tp_ejb3.pdf)
   
-  TP 4 : Composants Spring](./tp/tp4.pdf)
+  TP 4 : Composants Spring
   
   TP 5 : Composants OSGi
   
