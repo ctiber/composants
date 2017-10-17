@@ -3,6 +3,7 @@ package converter;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Iterator;
+import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Properties;
@@ -67,7 +68,7 @@ public class MailerMDB implements MessageListener {
                     // Envoi du mail
                     transport.sendMessage(msg,msg.getAllRecipients());
                     transport.close();
-                    System.out.println("Email envoyé à "+dest);
+                    System.out.println("Email envoyé à "+dest); // une petite vérif.
                 }
                 catch(MessagingException e){e.printStackTrace();}
             }
@@ -82,7 +83,7 @@ public class MailerMDB implements MessageListener {
             Monnaie m = entry.getKey();
             content +="<tr>"+"<td>"+m.getNom()+" (";
 
-            ArrayList<String> pays = m.getPays();
+            List<String> pays = m.getPays();
             Iterator it = pays.iterator();
             while(it.hasNext()) {
                 content+=it.next();

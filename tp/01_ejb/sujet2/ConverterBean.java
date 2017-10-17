@@ -5,6 +5,7 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -77,7 +78,7 @@ public class ConverterBean implements Converter {
                                 
                                 nom = elem3.getChild("CcyNm").getText();
                                 float taux = Float.parseFloat(e.getAttributeValue("rate"));
-                                ArrayList<String> pays = getPays(elem2,code);
+                                List<String> pays = getPays(elem2,code);
                                 Monnaie m = new Monnaie(pays,nom,code,taux);                                
                                 monnaies.add(m);
                                 break;
@@ -109,8 +110,8 @@ public class ConverterBean implements Converter {
 
     // Méthode qui retourne la liste de pays qui utilisent la monnaie
     // indiquée en paramètre (code)
-    private ArrayList<String> getPays(Element elem2, String code) {
-        ArrayList<String> pays = new ArrayList<>();
+    private List<String> getPays(Element elem2, String code) {
+        List<String> pays = new ArrayList<>();
         elem2.getChildren().stream().filter((elem3) -> (elem3.getChild("Ccy") != null)).filter((elem3) -> (elem3.getChild("Ccy").getText().equals(code))).forEach((elem3) -> {
             pays.add(elem3.getChild("CtryNm").getText());
         });        
