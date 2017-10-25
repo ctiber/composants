@@ -29,7 +29,7 @@
                         ArrayList<Monnaie> monnaies = beanConv.getAvailableCurrencies();
                         for(Monnaie m : monnaies) {
                     %>
-                            <option value="USD"><%= m.getCode()%></option>
+                            <option value="<%= m.getCode()%>"><%= m.getCode()%></option>
                     
                     <%  } %>
                 </select>
@@ -42,9 +42,9 @@
         </form>
         
         <%
-            String amount = request.getParameter("montant"); // ...
-            if((amount!=null)&&(amount.length()!=0)) {                
-                String currency = request.getParameter("monnaie");
+            String amount = request.getParameter("montant"); 
+            String currency = request.getParameter("monnaie");
+            if((amount!=null)&&(amount.length()!=0)) {                                
                 double resultat = beanConv.euroToOtherCurrency(Double.parseDouble(amount),currency);             
                 out.println("<b>Résultat de la conversion : </b>"+resultat);
                 String email = request.getParameter("email");
@@ -63,3 +63,4 @@
         %>
     </body>
 </html>
+
