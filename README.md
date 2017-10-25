@@ -19,7 +19,7 @@ Sur cette page, les étudiants du Master Informatique ont accès aux supports de
     
   * TP 3 : [Composants EJB et services Web](./tp/01_ejb/tp_ejb3.pdf)
   
-  * TP 4 : Composants Spring
+  * TP 4 : [Composants Spring](./tp/02_spring/tp_spring.pdf)
   
   * TP 5 : Composants OSGi<br/>
     - Le même TP sous Eclipse
