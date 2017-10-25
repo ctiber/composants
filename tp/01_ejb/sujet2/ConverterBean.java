@@ -58,9 +58,12 @@ public class ConverterBean implements Converter {
         try {
             Element racine = document.getRootElement();
             Namespace ns = Namespace.getNamespace("http://www.ecb.int/vocabulary/2002-08-01/eurofxref");
-            
-            URL url = new URL("http://localhost/~chouki/m3203_web/list_one.xml");
-            //URL url = new URL("http://www.currency-iso.org/dam/downloads/lists/list_one.xml");
+                        
+            URL url = new URL("http://www.currency-iso.org/dam/downloads/lists/list_one.xml");
+	    sxb.setValidation(false);
+	    sxb.setFeature("http://xml.org/sax/features/validation", false);
+	    sxb.setFeature("http://apache.org/xml/features/nonvalidating/load-dtd-grammar", false);
+	    sxb.setFeature("http://apache.org/xml/features/nonvalidating/load-external-dtd", false);
             Document doc2 = sxb.build(url);
             Element racine2 = doc2.getRootElement();
             Element elem2 = racine2.getChild("CcyTbl");            
