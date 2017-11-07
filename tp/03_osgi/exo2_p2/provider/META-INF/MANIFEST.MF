@@ -1,0 +1,7 @@
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: hmin304.cours.print.printer
+Bundle-Name: Printer
+Bundle-Version: 1.0.0
+Bundle-Activator: hmin304.cours.print.impl.PrinterActivator
+Import-Package: org.osgi.framework
+Export-Package: hmin304.cours.print

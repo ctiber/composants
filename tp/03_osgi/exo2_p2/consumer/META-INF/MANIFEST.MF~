@@ -1,0 +1,6 @@
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: hmin304.cours.hello.Helloer
+Bundle-Name: Helloer
+Bundle-Version: 1.0.1
+Bundle-Activator: hmin304.cours.hello.Main
+Import-Package: org.osgi.framework,hmin304.cours.print
