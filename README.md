@@ -24,6 +24,6 @@ Sur cette page, les étudiants du Master Informatique ont accès aux supports de
   * TP 5 : [Composants OSGi](./tp/03_osgi/tp_osgi.pdf)<br/>
     - [Le même TP sous Eclipse](./tp/03_osgi/tpOsgiSousEclipse.pdf)
     
-  * TP 6 : Composants Eclipse
+  * TP 6 : [Composants Eclipse]((./tp/04_eclipse/tp_eclipse.pdf)
   
   * TP 7 : Composants WebExtension
