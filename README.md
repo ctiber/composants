@@ -26,4 +26,4 @@ Sur cette page, les étudiants du Master Informatique ont accès aux supports de
     
   * TP 6 : [Composants Eclipse](./tp/04_eclipse/tp_eclipse.pdf)
   
-  * TP 7 : Composants WebExtension
+  * TP 7 : [Composants WebExtension](./tp/05_web_ext/tp_webext.pdf)
