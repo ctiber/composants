@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.commands"
+	id="hmin304.tp.eclipse.helloer.command"
+         name="Command related to running the say hello plugin">
+      <command
+            id="hmin304.tp.eclipse.helloer.sayhello"
+            name="Say Hello">
+      </command>
+   </extension>
+   <extension
+         point="org.eclipse.ui.menus">
+         <menuContribution locationURI="menu:org.eclipse.ui.main.menu?after=additions">
+         	<menu id="hmin304.tp.eclipse.helloer.menu" label="Helloer">
+         		<command commandId="hmin304.tp.eclipse.helloer.sayhello" 
+				id="hmin304.tp.eclipse.helloworld" mnemonic="r"/>
+         	</menu>
+         </menuContribution>
+   </extension>
+   <extension
+         point="org.eclipse.ui.handlers">
+         <handler commandId="hmin304.tp.eclipse.helloer.sayhello" 
+			   class="hmin304.tp.eclipse.HelloWorldHandler"/>
+   </extension>
+</plugin>
