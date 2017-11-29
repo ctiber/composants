@@ -10,6 +10,8 @@ Sur cette page, les étudiants du Master Informatique ont accès aux supports de
    * Cours 4 : [Développement par plugins d'IDE](./cours/cours4.pdf)
    
    * Cours 5 : [Développement par plugins de navigateurs Web](./cours/cours5.pdf)
+   
+   * Cours 6 : [Développement par modules Java 9](./cours/cours6.pdf)
 
 ## Sujets de TP
   * TP 1 : [Composants EJB Session](./tp/01_ejb/tp_ejb1.pdf)
